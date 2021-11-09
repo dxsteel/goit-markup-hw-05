@@ -59,11 +59,17 @@ body {
 }
 
 /* навигация */
-.page-header {
+.page-header-portfolio {
   margin: auto;
   background-color: #ffffff;
   border: 1px solid #ececec;
 }
+
+.page-header {
+  margin: auto;
+  background-color: #ffffff;
+}
+
 .item {
   display: flex;
   align-items: center;
