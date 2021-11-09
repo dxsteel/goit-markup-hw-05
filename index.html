@@ -40,7 +40,7 @@
             <h1 class="head">
                 ЭФФЕКТИВНЫЕ РЕШЕНИЯ<br>ДЛЯ ВАШЕГО БИЗНЕСА
             </h1>
-            <button class="button-primary" type="button">Заказать услугу</button>
+            <button data-modal-open class="button-primary" type="button">Заказать услугу</button>
         </section>
         <section class="section benefits">
             <div class="container">
@@ -240,5 +240,11 @@
              </div>
         </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button data-modal-close class="modal-button"><img src="./images/vector.jpg"></button>
+        </div>
+    </div>
+    <script src="./js/modal.js"></script>
 </body>
 </html>
