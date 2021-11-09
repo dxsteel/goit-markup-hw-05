@@ -307,6 +307,31 @@ body {
   justify-content: space-between;
 }
 
+.front {
+  position: relative;
+  display: flex;
+}
+
+.title-over {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  color: var(--primary-text-color);
+  font-style: 400;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  background: rgba(47, 48, 58, 0.8);
+  color: #ffffff;
+  height: 70px;
+  width: 370px;
+}
+
 /* команда */
 
 .team {
